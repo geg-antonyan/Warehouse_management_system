@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{c32e242b-abf5-4111-9b02-ccd9613a5680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilites">
+      <UniqueIdentifier>{12940c91-dc58-4ed4-8dbd-00c169c1bf9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="management">
+      <UniqueIdentifier>{14f9ee3c-891b-4aff-b389-8a2f545176b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customers">
+      <UniqueIdentifier>{e976462f-972e-4629-8a33-efee534a0402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend">
+      <UniqueIdentifier>{51fd4e4d-85d4-4b96-afe2-c98af9624fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="warehouse">
+      <UniqueIdentifier>{da79edf0-de6c-4a5a-a035-1670a6bc40a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\gui\Gui.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="src\gui\ProductForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="src\gui\BoxForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="src\gui\StoresForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="src\gui\WarehouseForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\gui\Gui.h">
+      <Filter>gui</Filter>
+    </QtMoc>
+    <QtMoc Include="src\gui\ProductForm.h">
+      <Filter>gui</Filter>
+    </QtMoc>
+    <QtMoc Include="src\gui\BoxForm.h">
+      <Filter>gui</Filter>
+    </QtMoc>
+    <QtMoc Include="src\gui\StoresForm.h">
+      <Filter>gui</Filter>
+    </QtMoc>
+    <QtMoc Include="src\gui\Form.h">
+      <Filter>gui</Filter>
+    </QtMoc>
+    <QtMoc Include="src\gui\WarehouseForm.h">
+      <Filter>gui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="src\gui\Gui.qrc">
+      <Filter>gui</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Gui.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilites\EventData.cpp">
+      <Filter>utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilites\freeFunc.cpp">
+      <Filter>utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilites\Observed.cpp">
+      <Filter>utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilites\Timer.cpp">
+      <Filter>utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilites\Container.cpp">
+      <Filter>utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="src\management\Discounts.cpp">
+      <Filter>management</Filter>
+    </ClCompile>
+    <ClCompile Include="src\management\Orders.cpp">
+      <Filter>management</Filter>
+    </ClCompile>
+    <ClCompile Include="src\customers\Stores.cpp">
+      <Filter>customers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\management\Cargo.cpp">
+      <Filter>management</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\ProductForm.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\BoxForm.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\StoresForm.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\Command.cpp">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\CommandRepository.cpp">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\CommandDispatcher.cpp">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\AppObservers.cpp">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Form.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\management\Process.cpp">
+      <Filter>management</Filter>
+    </ClCompile>
+    <ClCompile Include="src\warehouse\Box.cpp">
+      <Filter>warehouse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\warehouse\ExpiredProducts.cpp">
+      <Filter>warehouse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\warehouse\Product.cpp">
+      <Filter>warehouse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\warehouse\Warehouse.cpp">
+      <Filter>warehouse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\WarehouseForm.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\CommandManager.cpp">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilites\UserInterface.cpp">
+      <Filter>utilites</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\utilites\EventData.h">
+      <Filter>utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilites\Exception.h">
+      <Filter>utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilites\freeFunc.h">
+      <Filter>utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilites\Observed.h">
+      <Filter>utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilites\Observer.h">
+      <Filter>utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilites\Timer.h">
+      <Filter>utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilites\UserInterface.h">
+      <Filter>utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilites\Container.h">
+      <Filter>utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\management\Discounts.h">
+      <Filter>management</Filter>
+    </ClInclude>
+    <ClInclude Include="src\management\Orders.h">
+      <Filter>management</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilites\Elements.h">
+      <Filter>utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\customers\Stores.h">
+      <Filter>customers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\management\Cargo.h">
+      <Filter>management</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\Command.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\CommandRepository.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\CommandDispatcher.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\AppObservers.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\management\Process.h">
+      <Filter>management</Filter>
+    </ClInclude>
+    <ClInclude Include="src\warehouse\Box.h">
+      <Filter>warehouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\warehouse\ExpiredProducts.h">
+      <Filter>warehouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\warehouse\Product.h">
+      <Filter>warehouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\warehouse\Warehouse.h">
+      <Filter>warehouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\CommandManager.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
