@@ -1,18 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'WarehouseForm.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.11.2)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "../../src/gui/WarehouseForm.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'WarehouseForm.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.11.2. It"
+#error "This file was generated using the moc from 5.15.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -43,7 +44,7 @@ QT_MOC_LITERAL(2, 33, 0) // ""
 static const uint qt_meta_data_WarehouseForm[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
        1,   14, // methods
@@ -65,7 +66,7 @@ static const uint qt_meta_data_WarehouseForm[] = {
 void WarehouseForm::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        WarehouseForm *_t = static_cast<WarehouseForm *>(_o);
+        auto *_t = static_cast<WarehouseForm *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->on_startPB_clicked(); break;
@@ -75,10 +76,14 @@ void WarehouseForm::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
     Q_UNUSED(_a);
 }
 
-QT_INIT_METAOBJECT const QMetaObject WarehouseForm::staticMetaObject = {
-    { &Form::staticMetaObject, qt_meta_stringdata_WarehouseForm.data,
-      qt_meta_data_WarehouseForm,  qt_static_metacall, nullptr, nullptr}
-};
+QT_INIT_METAOBJECT const QMetaObject WarehouseForm::staticMetaObject = { {
+    QMetaObject::SuperData::link<Form::staticMetaObject>(),
+    qt_meta_stringdata_WarehouseForm.data,
+    qt_meta_data_WarehouseForm,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *WarehouseForm::metaObject() const

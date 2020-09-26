@@ -1,5 +1,7 @@
 #include "Process.h"
 
+#include <functional>
+
 #include "../customers/Stores.h"
 
 #include "../warehouse/Warehouse.h"
