@@ -1,5 +1,6 @@
 # Warehouse_management_system
 Project create in Visual Studio 2017 with use QT VS Tools
+*27/09/2020 Project optimized for vs 2019 and msvc2019_64
 
 ТЗ
 3.Автоматизация производственных процессов
